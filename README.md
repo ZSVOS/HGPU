@@ -120,7 +120,7 @@ The code directory structure is as follows.
 
 5. The YouTube-Objects dataset can be downloaded from [here](http://calvin-vision.net/datasets/youtube-objects-dataset/) and annotation can be found [here](http://vision.cs.utexas.edu/projects/videoseg/data_download_register.html).
 
-6. The Long-Videos dataset can be downloader from [here](https://www.kaggle.com/gvclsu/long-videos).
+6. The Long-Videos dataset can be downloaded from [here](https://www.kaggle.com/gvclsu/long-videos).
 ## Acknowledge
 
 1. Zero-shot Video Object Segmentation via Attentive Graph Neural Networks, ICCV 2019 (https://github.com/carrierlxk/AGNN)
