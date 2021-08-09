@@ -309,7 +309,7 @@ for e in iterator:
 
                     start = time.time()
         else:
-            for batch_idx, (im1, im2, flow, ms1, ms2, _, _, negative_pixels1, negative_pixels2) in \
+            for batch_idx, (im1, im2, flow, ms1, ms2, negative_pixels1, negative_pixels2) in \
                     enumerate(test_loader):
                 im1, im2, flow, mask1, mask2, negative_pixels1, negative_pixels2 = \
                     im1.to(local_rank), im2.to(local_rank), flow.to(local_rank), \
