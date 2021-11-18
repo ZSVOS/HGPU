@@ -1,7 +1,7 @@
 ## HGPU
 Code for paper: Hierarchical Graph Pattern Understanding for Zero-Shot Video Object Segmentation
 
-![](./figs/HGPU.svg)
+![](./figs/HGPU.pdf)
 <center>Figure 1. Architecture of HGPU. Frames (I_k, I_{k+1}) and their corresponding optical flow (O_k) are used as inputs to generate high-order feature representations with multiple modalities by (a) HGPE. Motion-appearance features are parsed through (b) MAUD to output coarse-to-fine segmentation results.</center>
 
 ## Requirements
