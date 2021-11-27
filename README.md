@@ -20,8 +20,8 @@ Code for paper: Hierarchical Graph Pattern Understanding for Zero-Shot Video Obj
 2. Download the YouTube-VOS dataset from [YouTube-VOS](https://youtube-vos.org/dataset/), the validation set is not mandatory to download.
 3. Download the YouTube2018-hed and davis-hed datasets from [GoogleDrive](https://drive.google.com/drive/folders/1usBfwkEgQhs4XaZ22FJThcyOSXjoUMFh?usp=sharing).
 4. The optical flow files are obtained by [RAFT](https://github.com/princeton-vl/RAFT), we provide demo code that can be run directly on path ```flow```.
-We also provide optical flow of YouTube-VOS (18G) in [GoogleDrive](https://drive.google.com/file/d/1rrTz9tqq9Gansl9oqYD5gBPD32Pc6iug/view?usp=sharing), 
-   optical flow of DAVIS can be found in [GoogleDrive](https://drive.google.com/file/d/1ADBNzRyZwJUJVO77Iutu_H6tIN2n5SS0/view?usp=sharing).
+We also provide optical flow of YouTube-VOS (18G) in [GoogleDrive](https://drive.google.com/file/d/1VentXMO7GWEmVhCm-nfJljZo13rLpa0L/view?usp=sharing), 
+   optical flow of DAVIS can be found in [GoogleDrive](https://drive.google.com/file/d/1P-hhmblPVtiX3KILm-NK5s7ePjFIxpPZ/view?usp=sharing).
 ### Dataset Format
 Please ensure the datasets are organized as following format. 
 ```
@@ -65,11 +65,11 @@ If you want to test the model results directly, you can follow the settings belo
 	    <td>DAVIS-16</td>
 	    <td>86.0 full-training; 78.6 pre-training; 80.3 main-training</td>
 	    <td> 
-        [<a href="https://drive.google.com/drive/folders/1Uvyz1yVrZ7-mudgixi9phJwhpOgdPu8L?usp=sharing" target="_blank">full-training</a>];
-        [<a href="https://drive.google.com/drive/folders/1q8lpEDmBI534Z0jJRzYC1-8DE7_w0xpT?usp=sharing" target="_blank">pre-training</a>];
-        [<a href="https://drive.google.com/drive/folders/1l17HPZFH7QVYaczkxcTe4mjy2By-2tz7?usp=sharing" target="_blank">main-training</a>]
+        [<a href="https://drive.google.com/file/d/1ohU9sTa8UP5rE_rXF4ZXaTdH7hkyNBuj/view?usp=sharing" target="_blank">full-training</a>];
+        [<a href="https://drive.google.com/file/d/1tiJq9JfmHGM72ylQTZIimywY9_ZBBvDB/view?usp=sharing" target="_blank">pre-training</a>];
+        [<a href="https://drive.google.com/file/d/1YCC54V3_dczfVAHaGqD9QNMsMCJp4ut0/view?usp=sharing" target="_blank">main-training</a>]
         </td>
-        <td>[<a href="https://drive.google.com/file/d/12_fKOJiMBx7C1x0zU3c7hkfyxU94qFI2/view?usp=sharing" target="_blank">DAVIS-16</a>]</td>
+        <td>[<a href="https://drive.google.com/file/d/17IeWxN9P0ePdSETXoI8FaOkuc4T_SaGL/view?usp=sharing" target="_blank">DAVIS-16</a>]</td>
 	</tr>
      <tr>
 	    <td>Youtube-Objects</td>
@@ -77,7 +77,7 @@ If you want to test the model results directly, you can follow the settings belo
 	    <td>
         without fine-tuning
         </td>
-        <td>[<a href="https://drive.google.com/file/d/10I1WXBACabjfwD-HVVuXSF2i0LDQjq_9/view?usp=sharing" target="_blank">YouTube-Objects</a>]</td>
+        <td>[<a href="https://drive.google.com/file/d/1N1eepTnyIyeTsF-bowUw1O0Gv1TvXOag/view?usp=sharing" target="_blank">YouTube-Objects</a>]</td>
 	</tr>
      <tr>
 	    <td>Long-Videos</td>
@@ -85,15 +85,15 @@ If you want to test the model results directly, you can follow the settings belo
 	    <td>
         without fine-tuning
         </td>
-        <td>[<a href="https://drive.google.com/file/d/1Z-1tOEj9DhgqwA4cEgF22QNJudT_1uhT/view?usp=sharing" target="_blank">Long-Videos</a>]</td>
+        <td>[<a href="https://drive.google.com/file/d/1wDHxPf1UV88AKYEEoEwX_YY28tkUNHca/view?usp=sharing" target="_blank">Long-Videos</a>]</td>
 	</tr>
      <tr>
 	    <td>DAVIS-17</td>
 	    <td>67.0</td>
 	    <td>
-        [<a href="https://drive.google.com/drive/folders/1MQTMJQBsjHtPRhuGOZT3fLWsLXv8sFyy?usp=sharing" target="_blank">DAVIS-17</a>]</td>
+        [<a href="https://drive.google.com/file/d/1pAYArJx5sJxJ_d8KIcaB_IxYR6zP2Gfv/view?usp=sharing" target="_blank">DAVIS-17</a>]</td>
         </td>
-        <td>[<a href="https://drive.google.com/file/d/1gXJbZQQhq1G9yWwu-yo9d0tF3ZrJH-xP/view?usp=sharing" target="_blank">DAVIS-17</a>]</td>
+        <td>[<a href="https://drive.google.com/file/d/1uMM7MDjSbS0jlWp2fatOHznpGs99CZeU/view?usp=sharing" target="_blank">DAVIS-17</a>]</td>
 	</tr>
 </table>
 
@@ -124,7 +124,7 @@ The code directory structure is as follows.
 
 ## Supplementary 
 
-1. [PWCNet](https://github.com/sniklaus/pytorch-pwc) is used to compute optical flow estimation for HGPU training, and the pre-trained model and inference results are in [here](https://drive.google.com/drive/folders/11p5Qf0ATYKfr-uyAtLrrSJjMpKlBHAoL?usp=sharing).
+1. [PWCNet](https://github.com/sniklaus/pytorch-pwc) is used to compute optical flow estimation for HGPU training, and the pre-trained model and inference results are in [here](https://drive.google.com/file/d/14p6g5n116_Cr9gZBRsXhHe76fDD55DH8/view?usp=sharing).
 
 ## Acknowledge
 
