@@ -18,7 +18,7 @@ Code for paper: Hierarchical Graph Pattern Understanding for Zero-Shot Video Obj
 ### Download Datasets
 1. Download the DAVIS-2017 dataset from [DAVIS](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip).
 2. Download the YouTube-VOS dataset from [YouTube-VOS](https://youtube-vos.org/dataset/), the validation set is not mandatory to download.
-3. Download the YouTube2018-hed and davis-hed datasets from [GoogleDrive](https://drive.google.com/drive/folders/1usBfwkEgQhs4XaZ22FJThcyOSXjoUMFh?usp=sharing).
+3. Download the [YouTube2018-hed](https://drive.google.com/file/d/1ghq5K3FPSgZUQVNlOAGmoFY1z9QGaLu2/view?usp=sharing) and [davis-hed](https://drive.google.com/file/d/1iDcImCHORRRA1R925vJyj3xtX6Xi6gu_/view?usp=sharing) datasets.
 4. The optical flow files are obtained by [RAFT](https://github.com/princeton-vl/RAFT), we provide demo code that can be run directly on path ```flow```.
 We also provide optical flow of YouTube-VOS (18G) in [GoogleDrive](https://drive.google.com/file/d/1VentXMO7GWEmVhCm-nfJljZo13rLpa0L/view?usp=sharing), 
    optical flow of DAVIS can be found in [GoogleDrive](https://drive.google.com/file/d/1P-hhmblPVtiX3KILm-NK5s7ePjFIxpPZ/view?usp=sharing).
