@@ -1,5 +1,3 @@
-![visitors](https://visitor-badge.glitch.me/badge?page_id=ZSVOS.HGPU)
-
 ## HGPU
 Code for paper: Hierarchical Graph Pattern Understanding for Zero-Shot Video Object Segmentation
 
